@@ -111,18 +111,20 @@ nav{
    
     
 }
-.boxes-flex{
+/* .boxes-flex{
     width: 1170px;
     margin: 0 auto;
     
     
-}
+} */
 
 /* for all flexboxes */
  .boxes-flex{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    width: 1170px;
+    margin: 0 auto;
     
 } 
 
@@ -133,15 +135,21 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
     
     
 }
-
+.image{
+    width: 100px;
+    padding-top: 30px;
+    margin-top: 80px;
+   
+}
 .text{
     width: 250px;
     text-align: center;
-    margin-top: 13px;
-    margin-bottom: 11px;
+    margin-top: 10px;
+    padding-bottom: 200px;
     font-size: 16px;
     color: white;
     
@@ -149,8 +157,9 @@ nav{
 
 
 .boxes-heading{
+    margin-bottom: 30px;
     font-size: 22px;
-    color: #FFFFFF;
+    color: #eee1e1;
    
 }
 .allboxes:nth-child(1){
@@ -181,18 +190,28 @@ nav{
 
 /*icon styles*/
 .icon{
-
-    width: 130px;
-    height: 45px;
+    /* margin-bottom: 20px; */
+    margin-top: 300px;
+    width: 80px;
+    height: 20px;
     border: 2px solid white;
     border-radius: 23px;
     text-align: center;
-    padding: 12px 0px;
+    padding: 10px 0px 10px 0px;
     color: white;
-    font-size: 15px;
-    
+    font-size: 10px;
+    position: absolute;
 }
+/* .lightblue-klick{
+    margin-top: 2px;
+} */
+/* .icon-klick{
 
+} */
+/* p{
+    
+    padding-bottom: 70px;
+} */
 .icon:hover{
     background-color: white;
     color: #4B647E;
