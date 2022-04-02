@@ -3,6 +3,10 @@
     .nav{
         display: none;
     }
+    /* .li: not (.active){
+        display:none; */
+
+    }
     .burger{
         display:block
     }
@@ -10,11 +14,28 @@
     flex-wrap: wrap;
     justify-content: center;
     gap:30px;
+    
       
     }
     h3{
-     margin: 67px 0px 100px 0px;
+    margin: 67px 0px 100px 0px;
+ }
+
+ @media (max-width: 388px){
+
+    .burger {
+    display: block;
+    color: blue;
+    margin-top: 5px;
+
 }
+.header-flex{
+    /* flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;     */
+      /* display: none;
+    } */
+  
 /*1-section*/
 @media (max-width:1170px) {
     .section-top{

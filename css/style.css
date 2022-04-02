@@ -2,6 +2,7 @@
 .header-flex{
     display: flex;
     justify-content: space-between;
+    align-items: top;
     
 }
 ul {
@@ -9,17 +10,18 @@ ul {
     justify-content: space-between;
     width: 581px;
     font-size: 20px;
+    list-style: none;
     
     
 }
 h4{
     margin: 67px 0px 285px 100px;
     font-size: 32px;
-    color: #4B647E;
+    color: #4e759e;
    
 }
 h4 span{
-    color: #3D37F1;
+    color: #0c10f3;
     font-weight: bold;
 }
 nav{
@@ -27,8 +29,8 @@ nav{
 }
 .burger{
     font-size: 25px;
-    color: grey;
-     margin-top: 70px;
+    color: rgb(57, 231, 41);
+    margin-top: 50px;
     display: none;
 }
 
@@ -144,10 +146,6 @@ nav{
     color: white;
     
 }
-/*.image{
-    margin-bottom: 50px;
-    margin-top: 60px;
-}*/
 
 
 .boxes-heading{
@@ -198,6 +196,7 @@ nav{
 .icon:hover{
     background-color: white;
     color: #4B647E;
+    
 }
 .coral{
     background-color:#FBBA77; ;
