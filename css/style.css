@@ -1,35 +1,42 @@
 /*header styles*/
-.header-flex{
+.main-header{
+    width: 1070;
     display: flex;
     justify-content: space-between;
-    align-items: top;
     
 }
-ul {
-    display: flex;
-    justify-content: space-between;
-    width: 581px;
-    font-size: 20px;
-    list-style: none;
-    
-    
+.header-left{
+    width: auto;
+    margin-top: 20px;
+
 }
 h4{
     margin: 67px 0px 285px 100px;
     font-size: 32px;
-    color: #4e759e;
+    color: #084281;
    
 }
 h4 span{
     color: #0c10f3;
     font-weight: bold;
 }
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 581px;
+    font-size: 20px;
+    list-style: none;   
+    text-decoration: none;
+    
+}
+
 nav{
     margin: 87px 80px 267px 0px;
 }
 .burger{
     font-size: 25px;
-    color: rgb(57, 231, 41);
+    color: rgb(6, 41, 3);
     margin-top: 50px;
     display: none;
 }
@@ -109,14 +116,7 @@ nav{
     display: inline-block;
     margin-bottom: 67px;
    
-    
 }
-/* .boxes-flex{
-    width: 1170px;
-    margin: 0 auto;
-    
-    
-} */
 
 /* for all flexboxes */
  .boxes-flex{
@@ -140,8 +140,9 @@ nav{
     
 }
 .image{
+    max-width: 300px;
     width: 100px;
-    padding-top: 30px;
+    padding-top: 40px;
     margin-top: 80px;
    
 }
@@ -197,21 +198,12 @@ nav{
     border: 2px solid white;
     border-radius: 23px;
     text-align: center;
-    padding: 10px 0px 10px 0px;
+    padding: 10px 0px 20px 0px;
     color: white;
     font-size: 10px;
     position: absolute;
 }
-/* .lightblue-klick{
-    margin-top: 2px;
-} */
-/* .icon-klick{
 
-} */
-/* p{
-    
-    padding-bottom: 70px;
-} */
 .icon:hover{
     background-color: white;
     color: #4B647E;
