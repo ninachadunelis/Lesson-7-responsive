@@ -1,5 +1,5 @@
 /*header */
-@media (max-width:1024px){
+@media (max-width:1124px){
     .nav {
         display: none;
     }
@@ -11,6 +11,7 @@
         margin-right: 100px;
     
     }
+}
     /* .li :active{
         display: block;
 
@@ -24,8 +25,11 @@
         max-width: 300px;
         flex-direction: column;
         align-items: center; 
-        margin-bottom: 100px;
+        height: auto;
     }
+}
+        /* margin-bottom: 100px; */
+    /* }
     .hand-icon{
         margin-bottom: 40px;
     }
@@ -40,20 +44,23 @@
     .right-image{
         width: 300px;
         height: 200px;
-    }
+    } */
 
 /*2-section */
 @media (max-width:1024px){
     .boxes-flex{
         width: 100%;
         max-width: 320px;
-    }
-    .boxes-flex{
         flex-direction: column;
-        gap:30px;
         align-items: center;
+        gap:30px;
+       
+        
     }
-    .allboxes:nth-child(4){
+
+}
+    
+    /* .allboxes:nth-child(4){
       
         margin-top: 0px;
     }
@@ -87,7 +94,7 @@
         align-items: center;
 
     }
-}
+} */
 
 
 
