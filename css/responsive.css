@@ -11,14 +11,14 @@
         margin-right: 100px;
     
     }
-    .li :active{
+    /* .li :active{
         display: block;
 
-    }
+    } */
  
   
 /*1-section*/
-@media (max-width:1170px) {
+@media (max-width:1024px) {
     .section-top{
         width: 100%;
         max-width: 300px;
@@ -43,7 +43,7 @@
     }
 
 /*2-section */
-@media (max-width:1170px){
+@media (max-width:1024px){
     .boxes-flex{
         width: 100%;
         max-width: 320px;
